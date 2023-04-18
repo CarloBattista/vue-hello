@@ -12,7 +12,10 @@
 </head>
 <body>
 
-    <div id="app"></div>
+    <div id="app">
+        <h1 class="startVue">{{messageStart}}</h1>
+        <img class="image" v-bind:src="image" v-text:alt="messageStart">
+    </div>
 
     <!-- SCRIPTS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

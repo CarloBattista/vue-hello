@@ -11,4 +11,25 @@ body {
     font-family: "Poppins", sans-serif;
     background: #1a1a1a;
     color: #fff;
+    padding: 1em;
+}
+
+.startVue{
+    color: #42b883;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.image{
+    width: 550px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+/* Media Query */
+@media only screen and (max-width: 700px){
+    .image{
+        width: 100%;
+    }
 }
